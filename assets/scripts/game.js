@@ -1,30 +1,54 @@
 document.addEventListener("DOMContentLoaded", () => {
 
 const cardArray = [
-{
-    name: "animals",
-    img: "../images/animals.jpg"
-},
-{
-    name: "chimp",
-    img: "../images/chimp.jpg" 
-},
-{
-    name: "gato",
-    img: "../images/gator.jpg" 
-},
-{
-    name: "giraffe",
-    img: "../images/giraffe.jpg" 
-},
-{
-    name: "rhino",
-    img: "../images/rhino.jpg" 
-},
-{
-    name: "tiger",
-    img: "../images/tiger.jpg" 
-},
+    {
+        name: "animals",
+        img: "../images/animals.jpg"
+    },
+    {
+        name: "animals",
+        img: "../images/animals.jpg"
+    },
+    {
+        name: "chimp",
+        img: "../images/chimp.jpg" 
+    },
+    {
+        name: "chimp",
+        img: "../images/chimp.jpg" 
+    },
+    {
+        name: "gator",
+        img: "../images/gator.jpg" 
+    },
+    {
+        name: "gator",
+        img: "../images/gator.jpg" 
+    },
+    {
+        name: "giraffe",
+        img: "../images/giraffe.jpg" 
+    },
+    {
+        name: "giraffe",
+        img: "../images/giraffe.jpg" 
+    },
+    {
+        name: "rhino",
+        img: "../images/rhino.jpg" 
+    },
+    {
+        name: "rhino",
+        img: "../images/rhino.jpg" 
+    },
+    {
+        name: "tiger",
+        img: "../images/tiger.jpg" 
+    },
+    {
+        name: "tiger",
+        img: "../images/tiger.jpg" 
+    }
 
 ]
 
@@ -38,7 +62,7 @@ function createBoard() {
         // card.addEventListener("click", flipcard)
         grid.appendChild(card)
     }
-    console.log("this is firing");
+    
 };
 createBoard();
 
