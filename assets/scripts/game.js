@@ -1,4 +1,4 @@
-DOM.addEventListener("DomContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
 
 const cardArray = [
 {
@@ -26,8 +26,21 @@ const cardArray = [
     img: "../images/tiger.jpg" 
 },
 
-];
+]
 
+const grid = document.querySelector(".grid")
+
+function createBoard() {
+    for (let i=0; i < cardArray.length; i++){
+        var card = document.createElement("img")
+        card.setAttribute("src", "./assets/images/question.jpg")
+        card.setAttribute("data-id", i)
+        // card.addEventListener("click", flipcard)
+        grid.appendChild(card)
+    }
+    console.log("this is firing");
+};
+createBoard();
 
 
 })
